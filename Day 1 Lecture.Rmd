@@ -1,0 +1,29 @@
+---
+title: "Day 1 Lecture"
+author: "Yiwei Duan"
+date: "2/8/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+# go to help, markdown quick reference for a list of formatting options 
+
+```{bash}
+ls
+```
+
+
+```{bash}
+ls -l
+```
+```{bash}
+ls -l -a
+```
+
