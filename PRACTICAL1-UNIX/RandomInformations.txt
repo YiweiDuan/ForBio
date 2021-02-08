@@ -1,0 +1,100 @@
+Dominic	Woerden	04/24/1959	168	true
+Malcolm	Rothesay	09/14/1976	176	true
+Felicia	Jodoigne-Souveraine	06/02/1991	171	false
+Tucker	Beverlo	04/06/1995	162	false
+Herrod	Lobnya	02/01/1965	191	true
+Sophia	Poviglio	06/05/1967	166	false
+Slade	Jecheon	02/19/1944	170	false
+April	Busan	06/21/2007	161	true
+Jakeem	San Pedro	08/25/1990	165	true
+Yoshio	Philadelphia	10/18/1930	166	true
+Lane	Stratford	07/29/2007	171	true
+Harding	Yeovil	07/29/1983	181	true
+Robin	Machelen	12/24/1968	169	true
+Regan	Leominster	11/15/1954	160	true
+Plato	Airdrie	04/24/1984	188	false
+Rhonda	Ponte San Nicolò	05/05/1947	175	false
+Castor	Beverley	04/28/1959	182	true
+Bruno	Seraing	06/19/2006	167	false
+Yvette	Warri	05/26/1977	163	true
+Clio	Herentals	02/02/1951	178	false
+Bevis	Peumo	11/10/1983	182	false
+Reuben	Broken Arrow	10/27/2009	173	true
+Kimberley	Zutendaal	07/31/1955	173	true
+Heidi	Badajoz	07/18/1960	163	true
+Athena	Bovigny	03/11/1968	189	true
+Xavier	Torrevecchia Teatina	12/01/1955	172	true
+Tad	Affligem	12/21/1997	158	true
+Shelby	Reading	02/16/1957	182	true
+Laura	Melipeuco	11/11/1961	172	false
+Naomi	Elbląg	02/18/1957	175	true
+Brandon	Buckingham	04/18/1955	185	true
+Priscilla	Bünyan	01/15/1940	177	true
+Plato	Salzwedel	02/19/1952	194	true
+Russell	Périgueux	01/21/1930	179	false
+Raphael	Sittard	09/02/1948	169	true
+Dora	Lisciano Niccone	03/15/1947	167	false
+Erich	Treppo Carnico	03/15/1964	180	true
+Paula	Loupoigne	12/29/2002	197	true
+Neil	Richmond	06/23/1995	173	false
+Austin	Sohbatpur	01/27/1976	181	false
+Rana	Fort St. John	03/17/1966	161	true
+Kim	Korneuburg	09/27/1945	155	true
+Minerva	Açailândia	04/20/1962	184	true
+Irene	Naro-Fominsk	02/19/1951	189	false
+Cora	Dordrecht	11/15/1943	167	false
+Tarik	Porirua	03/07/1941	185	true
+Gil	Laives/Leifers	10/09/1967	178	true
+Colorado	Priero	01/20/1974	189	false
+Jasper	Mariquina	10/04/1952	183	true
+Constance	Termini Imerese	10/20/1954	193	false
+Francesca	Ransart	01/27/1979	166	false
+Zia	Casanova Elvo	10/30/1963	178	true
+Maya	Springfield	08/07/2004	162	false
+Cecilia	Caxias	09/30/1959	178	true
+Yuri	Emines	01/06/1945	174	true
+Amela	Termes	02/19/2001	176	true
+Rachel	Orangeville	12/20/1929	198	false
+April	Campbeltown	02/17/1974	178	true
+Hyatt	Poederlee	07/14/1946	180	false
+Jerry	Deline	10/05/1981	179	false
+Dorothy	Amstelveen	09/21/1980	181	true
+Jayme	Floridablanca	03/14/1980	173	false
+Shaeleigh	Khyber Agency	11/25/1977	168	false
+Finn	Calama	08/27/1967	179	false
+Jin	Katihar	11/27/2000	166	true
+Venus	Deschambault	08/09/1991	182	false
+Deanna	Moe	05/17/2009	175	true
+Wyatt	Mocoa	04/23/2002	174	true
+Alisa	Riesa	02/17/1998	176	true
+Bernard	Gebze	02/11/1931	166	true
+Armand	Sauris	04/21/1964	169	true
+Galvin	Nicoya	04/08/1950	180	true
+Oren	Likino-Dulyovo	10/11/1965	185	true
+Ivana	Forfar	01/26/1991	170	true
+Cassidy	Oxford County	02/24/1941	165	true
+Ciara	Weesp	12/14/1949	180	true
+Penelope	Casciana Terme	05/15/2006	184	true
+Blaine	Charleville-Mézières	10/08/1949	162	true
+Xenos	Santa Rita	01/26/1957	176	false
+Shoshana	San Gregorio	05/17/1969	174	true
+Wyoming	Charleville-Mézières	04/07/1943	165	false
+Deanna	Fishguard	04/26/1935	180	true
+David	Longvilly	06/02/1981	177	false
+Evan	Metairie	12/07/1953	180	true
+Peter	Dera Ghazi Khan	07/02/1965	167	true
+Amal	Monguelfo-Tesido/Welsberg-Taisten	06/09/1939	168	true
+Dale	Nuevo Laredo	01/02/1940	172	true
+Courtney	Heilbronn	12/24/1938	171	true
+Kirk	Ospedaletto Lodigiano	04/27/1995	173	true
+Cecilia	Rimbey	10/04/1945	180	true
+Pearl	North Dum Dum	05/06/1947	175	false
+Brian	Iksan	05/19/2009	184	false
+Kelly	Ottawa-Carleton	05/24/1998	167	true
+Sonia	Itegem	12/03/1927	175	true
+Edan	Kapuskasing	09/12/1941	174	false
+Gil	Crystal Springs	11/01/1955	182	false
+Jelani	Beho	11/21/1989	170	true
+Kylie	Busso	02/09/1939	179	false
+Omar	Warri	08/29/1934	174	false
+Amity	Madiun	12/28/1949	174	true

@@ -1,5 +1,5 @@
 ---
-title: "Day 1 Lecture"
+title: "Day 1 Lecture & boxplots"
 author: "Yiwei Duan"
 date: "2/8/2021"
 output: html_document
@@ -25,5 +25,100 @@ ls -l
 ```
 ```{bash}
 ls -l -a
+```
+
+```{bash}
+#to create a file: using 'touch'
+touch test_file
+```
+
+
+```{bash}
+#to copy a file: using 'cp'
+cp test_file test_file_copy
+```
+
+
+
+#read CSV from GUI
+mydata <- read.csv(file.choose())
+this does not work for read_csv
+
+#read CSV from an URL example 
+url <- "http://gattonweb.uky.edu/sheather/book/docs/datasets/magazines.csv"
+nyc <- read_csv(url)
+glimpse(nyc)
+
+
+# how to import data
+1. difference between read.csv() and read_csv()
+
+```{r}
+# class to slow, making box plots on the side, first import data
+dir.create("raw_data")
+#working solution: first create a folder for data, then copy and paste from computer to the folder through Mac Finder 
+```
+
+```{r}
+mydata <- read_csv2("~/ForBio/raw_data/leaf sample DNA extraction CSV.csv")
+head(mydata)
+dim(mydata)
+```
+```{r}
+dnaquant <- read_csv2("~/ForBio/raw_data/Leaf data-Table 1-wholenumber.csv")
+```
+
+```{r}
+install.packages("ggplot2")
+install.packages("ggplot")
+library(ggplot2)
+library(tidyverse)
+```
+```{r}
+ggplot(data=dnaquant, aes(x=X3, y=X15))+
+  geom_boxplot(width=0.5)
+last_plot()
+#this looks good, need to take out the unwanted tree species, also y axies (X15) is characters instead of numerics 
+```
+
+```{r}
+#make x14 numeric, as well as replace, with . 
+dnaquant.df<- as.data.frame(dnaquant, as.numeric(sub(",", ".", sub(".", "", X14, fixed=TRUE), fixed=TRUE)))
+dnaquant.df$X14 <- as.numeric(as.character(dnaquant.df$X14))
+print(dnaquant.df)
+class(dnaquant.df$X14)
+```
+
+```{r}
+# create new dataset that excludes the 6 unwanted tree species
+beech.df<-subset(dnaquant.df, X3=="Beech")
+beechnspruce.df<-subset(dnaquant.df, X3=="Beech" | X3=="Spruce")
+spruce.df<-subset(dnaquant.df, X3=="Spruce")
+```
+
+```{r}
+library(ggpubr)
+```
+
+```{r}
+ggplot(dnaquant.df, aes(x=X3, y=X14))+
+  geom_boxplot(width=0.5)+
+  labs(title="DNA conc.of Extracted Samples per Tree Species",x="Tree Species", y = "DNA Conc.(ug/ul)")+
+  stat_compare_means()+
+  theme_classic()
+last_plot()
+ggsave(filename = "~/ForBio/plots/AllTrees.png", plot = last_plot())
+```
+
+```{r}
+ggplot(beechnspruce.df, aes(x=X3, y=X14))+
+  geom_boxplot(width=0.5)+
+  labs(title="DNA conc.of Extracted Samples per Tree Species",x="Tree Species", y = "DNA Conc.(ug/ul)")+
+  stat_compare_means()+
+  theme_classic()
+
+last_plot()
+ggsave(filename = "~/ForBio/plots/beechnspruce.png", plot = last_plot())
+# need to sort by y, or change 
 ```
 
